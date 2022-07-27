@@ -1,2 +1,2 @@
 # cpp
-Basics / Katas / random_code
+Basics for remember and fun
