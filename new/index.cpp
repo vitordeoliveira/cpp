@@ -21,4 +21,7 @@ int main()
 
     delete b;
     // free(b) with the destructor;
+
+    // New keyword can receive size/memory_location;
+    // see Placement new folder;
 }
