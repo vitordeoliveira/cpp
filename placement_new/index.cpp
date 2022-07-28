@@ -49,8 +49,14 @@ int main()
     obj2->Print();
     obj3->Print();
 
+    // We need to clean the memory manualy
 
-// We do that because ask for memory in the heap is very cost to OS
-// This way we ask one time for all memory we need
+    obj1->~Base();
+    obj2->~Base();
+    obj3->~Base();
 
+    delete[] memory;
+
+    // We do that because ask for memory in the heap is very cost to OS
+    // This way we ask one time for all memory we need
 }
