@@ -45,6 +45,6 @@ int main()
 
     start = true;
 
-    std::cin.get();
+    std::cin.get();dd
     return 0;    
 }
