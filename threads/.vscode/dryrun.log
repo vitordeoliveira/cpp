@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/vitordeoliveira/Study/C++/basics/threads'
+g++ -pthread -o index index.cpp
+make: Leaving directory '/home/vitordeoliveira/Study/C++/basics/threads'
+ 
