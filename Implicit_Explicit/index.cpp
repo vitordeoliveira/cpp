@@ -10,7 +10,7 @@ private:
 public:
     Entity(const std::string &name) : m_Name(name), m_Age(-1) {}
     Entity(int age) : m_Name("Unknown"), m_Age(age){};
-    // explicit Entity(int age) : m_Name("Unknown"), m_Age(age){};
+    explicit Entity(int age) : m_Name("Unknown"), m_Age(age){};
 
     const int GetAge() const{
         return m_Age;
