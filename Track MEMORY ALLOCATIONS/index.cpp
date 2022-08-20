@@ -25,10 +25,17 @@ void operator delete(void *memory, size_t size)
 
     free(memory);
 }
-
+ 
 struct Object
 {
     int x, y, z;
+
+    // void *operator new(size_t size)
+    // {
+    //     std::cout << "Allocating 2 " << size << " Bytes\n";
+    //     s_AllocationMetrics.TotalAllocated += size;
+    //     return malloc(size);
+    // }
 };
 
 int main()

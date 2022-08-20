@@ -1,6 +1,24 @@
 #include <iostream>
 #include <variant>
 #include <string>
+#include <optional>
+
+std::optional<std::string> Reas()
+{
+    return {};
+}
+
+enum class ErrorCode
+{
+    None = 0,
+    NotFound = 1,
+    NoAccess = 2
+};
+
+std::variant<std::string, ErrorCode> Read()
+{
+    return {};
+}
 
 int main()
 {
