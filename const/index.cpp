@@ -18,7 +18,7 @@ public:
         return x;
     }
 
-    // Pointer and the contect cant be mobified and the function will not change any member
+    // Pointer and the content cant be mobified and the function will not change any member
     const int *const GetY() const
     {
         return y;
